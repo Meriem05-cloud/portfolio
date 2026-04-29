@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-7.2.0-web/css/all.min.css">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Nourchene's Portfolio</h1>
+        <nav>
+            <a href="#about-me">About Me</a> | 
+            <a href="#projects">Projects</a> | 
+            <a href="#contact">Contact</a> | 
+            <a href="#skills">Skills</a>
+        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- About Me Section -->
+        <section id="about-me">
+            <h2>About Me</h2>
+            <article>
+                <img src="profile.png" alt="Your Profile Picture">
+                <p>Hello! My name is [Your Name], and I am passionate about web development. Welcome to my personal portfolio, where you can learn more about my work and projects.</p>
+            </article>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Project 1: Description of the project</li>
+                <li>Project 2: Description of the project</li>
+                <li>Project 3: Description of the project</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email"required>
+
+                <label for="message">Message:</label>
+                <textarea id="message"  rows="10" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <!-- Skills Table -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">Skills</th>
+                    </tr>
+                    <tr>
+                        <th>Tool</th>
+                        <th>Proficiency</th>
+                    </tr>
+ 
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td><progress value="90" max="100">90% </progress></td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td><progress value="80" max="100">80%</progress></td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td><progress value="30" max="100">70%</progress></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p id="social-media">
+            <a href="https://x.com" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a> | 
+            <a href="https://facebook.com"> <i class="fa-brands fa-square-facebook"></i></a> |
+            <a href="https://instagram.com"> <i class="fa-brands fa-square-instagram"></i></a> |
+            <a href="https://github.com"><i class="fa-brands fa-square-github"></i></a> |
+            <a href="youtube.com"><i class="fa-brands fa-square-youtube"></i></a>
+
+        </p>
+        <p>&#169; 2025 2TIC | All rights reserved</p>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
